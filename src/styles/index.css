@@ -1,0 +1,39 @@
+:root {
+  --color-white: #ffffff;
+  --color-silver: grey;
+
+  --color-primary: #7289da;
+
+  --color-neutral-10: #424549;
+  --color-neutral-20: #36393e;
+  --color-neutral-30: #282b30;
+  --color-neutral-40: #1e2124;
+
+  --color-accent-10: #2a9d8f;
+
+  --color-danger-10: #d90000;
+
+  --spacing-xsmall: 6px;
+  --spacing-small: 12px;
+  --spacing-medium: 16px;
+  --spacing-large: 20px;
+
+  --font-small: 8px;
+  --font-medium: 12px;
+  --font-large: 16px;
+  --font-xlarge: 24px;
+  --font-xxlarge: 32px;
+}
+
+body {
+  background-color: var(--color-neutral-10);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+iframe {
+  display: none;
+}

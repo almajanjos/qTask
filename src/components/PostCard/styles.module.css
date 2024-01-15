@@ -1,0 +1,35 @@
+.postCard {
+  border-radius: 12px;
+  padding: var(--spacing-small);
+
+  background-color: var(--color-neutral-20);
+  color: var(--color-white);
+
+  margin-bottom: var(--spacing-small);
+}
+
+.postCard:hover {
+  background-color: var(--color-neutral-10);
+}
+
+.postCard:hover .username {
+  border-bottom: 1px solid var(--color-neutral-20);
+}
+
+.title {
+  font-size: var(--font-xxlarge);
+  margin-bottom: var(--spacing-xsmall);
+}
+
+.username {
+  color: var(--color-primary);
+
+  font-style: italic;
+  padding-bottom: var(--spacing-medium);
+  border-bottom: 1px solid var(--color-neutral-10);
+  margin-bottom: var(--spacing-medium);
+}
+
+.body {
+  margin-bottom: var(--spacing-xsmall);
+}

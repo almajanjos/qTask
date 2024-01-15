@@ -1,0 +1,30 @@
+.posts {
+  margin: var(--spacing-xsmall);
+  padding: var(--spacing-small);
+  border-radius: 12px;
+
+  background-color: var(--color-neutral-30);
+}
+
+.inputWrapper {
+  margin: var(--spacing-xsmall);
+  padding: var(--spacing-small);
+  border-radius: 12px;
+
+  background-color: var(--color-neutral-30);
+
+  position: sticky;
+  top: 0;
+}
+
+.postsPending {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-medium);
+
+  height: 100%;
+
+  font-size: var(--font-xlarge);
+}

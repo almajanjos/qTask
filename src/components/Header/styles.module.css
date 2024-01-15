@@ -1,0 +1,20 @@
+.header {
+  margin: var(--spacing-xsmall);
+  border-radius: 12px;
+  padding: var(--spacing-medium);
+
+  background-color: var(--color-neutral-30);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: var(--font-xlarge);
+  color: var(--color-primary);
+}
+
+.link {
+  color: var(--color-white);
+}

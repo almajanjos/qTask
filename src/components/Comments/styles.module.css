@@ -1,0 +1,18 @@
+.commentsToggler {
+  color: var(--color-accent-10);
+  margin-bottom: var(--spacing-xsmall);
+  font-style: italic;
+}
+
+.commentsToggler:hover {
+  cursor: pointer;
+}
+
+.comment {
+  margin-bottom: var(--spacing-xsmall);
+}
+
+.commentAuthor {
+  color: var(--color-silver);
+  margin-right: var(--spacing-xsmall);
+}

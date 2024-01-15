@@ -1,0 +1,12 @@
+.input {
+  font-size: var(--font-xxlarge);
+  background-color: inherit;
+  border: none;
+  width: 100%;
+
+  color: var(--color-white);
+}
+
+.input:focus {
+  outline: none;
+}

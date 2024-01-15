@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xsmall);
+
+  font-size: var(--font-xlarge);
+  color: var(--color-danger-10);
+  height: 100%;
+}
+
+.oops {
+  font-size: var(--font-xxlarge);
+  font-weight: 500;
+}

@@ -1,0 +1,4 @@
+.wrapper {
+  /* 56px is header size, 134px is footer size */
+  height: calc(100vh - 56px - 134px);
+}

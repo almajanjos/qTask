@@ -1,0 +1,23 @@
+.post {
+  height: 100%;
+}
+
+.postWrapper {
+  margin: var(--spacing-xsmall);
+  padding: var(--spacing-small);
+  border-radius: 12px;
+
+  background-color: var(--color-neutral-30);
+}
+
+.postPending {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-medium);
+
+  height: 100%;
+
+  font-size: var(--font-xlarge);
+}
